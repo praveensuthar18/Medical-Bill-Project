@@ -4,6 +4,8 @@ There are two endpoints created where one endpoint is used to post medical bill 
 
 There are unit tests created for both endpoints where for the GET endpoint we have handled conditions when there are no medical bills and when there is medical bill. For POST requests, we have tested by sending a bill and checking if everything goes right and if we miss some information in the bill data and checking the error.
 
+Entrypoint of our application is index.js which contains an express server listening on port 3000
+
 ## Installation
 
 Use npm install to download required packages mainly express and testing libraries like chai by running the below command from the project's root.
